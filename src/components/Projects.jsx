@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "Grapro personal assitent",
+      title: "Grapro personal assistent",
       description:
         "Een persoonlijke assistent met spraakherkenning en AI-integratie.",
       code: "https://github.com/TiagoBelmonte/Portfolio/tree/main/Graduaat%20Programmeren%20-%20HOGENT/Jaar%202/Graduaatsproef/chat_assistant",
