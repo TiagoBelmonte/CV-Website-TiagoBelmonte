@@ -18,7 +18,7 @@ export default function Contact() {
       title: "Stage + vakantiejob helpdesk medewerker",
       image: "/sintandries.jpg",
       description:
-        "2 weken stage gevolgd en nadien 5 weken gewerkt op de helpdeskafdeling bij het Sint-Andriesziekenhuis. Takenpakket omvatte het ondersteunen van dokters en verpleegkundigen bij IT-problemen, het beheren van tickets en het bieden van technische ondersteuning.",
+        "Stage gevolgd en nadien 5 weken gewerkt op de helpdeskafdeling bij het Sint-Andriesziekenhuis. Takenpakket omvatte het ondersteunen van dokters en verpleegkundigen bij IT-problemen, het beheren van tickets en het bieden van technische ondersteuning.",
       website: "https://www.sintandriestielt.be/",
     },
   ];
