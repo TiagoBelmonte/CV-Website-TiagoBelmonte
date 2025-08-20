@@ -10,7 +10,7 @@ export default function Projects() {
       code: "https://github.com/TiagoBelmonte/Portfolio/tree/main/Graduaat%20Programmeren%20-%20HOGENT/Jaar%202/Graduaatsproef/chat_assistant",
     },
     {
-      title: "React Native App",
+      title: "React native app",
       description:
         "Cross-platform mobiele applicatie met GPS en API-integraties.",
       code: "https://github.com/TiagoBelmonte/Portfolio/tree/main/Graduaat%20Programmeren%20-%20HOGENT/Jaar%202/Mobile/TiagoBelmonte_PersonalAssitentApp/PersonalAssitentApp",

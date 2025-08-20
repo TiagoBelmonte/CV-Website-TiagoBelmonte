@@ -4,21 +4,21 @@ export default function Contact() {
       title: "Stage frontend developer",
       image: "/prompto.jpg",
       description:
-        "Stage gelopen bij Prompto, waar ik ervaring heb opgedaan in frontend development met React en TypeScript. Takenpakket omvatte bugs fixen en nieuwe features implementeren.",
+        "Stage gevolgd bij Prompto, waar ik ervaring heb opgedaan in frontend development met React en TypeScript. Takenpakket omvatte bugs fixen en nieuwe features implementeren.",
       website: "https://prompto.com/",
     },
     {
-      title: "Fabriekmedewerker",
+      title: "Fabrieksmedewerker",
       image: "/vulkoprin.jpg",
       description:
-        "3 jaar gewerkt als machineoperator en pistolspuiter bij Vulkoprin in Tielt. Verantwoordelijk voor het bedienen van machines, wielen te spuiten en kwaliteitscontrole.",
+        "3 jaar gewerkt als machineoperator en pistoolspuiter bij Vulkoprin in Tielt. Verantwoordelijk voor het bedienen van machines, wielen te spuiten en kwaliteitscontrole.",
       website: "https://vulkoprin.be/nl/",
     },
     {
       title: "Stage + vakantiejob helpdesk medewerker",
       image: "/sintandries.jpg",
       description:
-        "Stage gelopen en nadien 5 weken gewerkt als helpdesk medewerker bij sint-andriesZiekenhuis. Taken omvatten het ondersteunen van dokters en verpleegkundigen bij IT-problemen, het beheren van tickets en het bieden van technische ondersteuning.",
+        "2 weken stage gevolgd en nadien 5 weken gewerkt op de helpdeskafdeling bij het Sint-Andriesziekenhuis. Takenpakket omvatte het ondersteunen van dokters en verpleegkundigen bij IT-problemen, het beheren van tickets en het bieden van technische ondersteuning.",
       website: "https://www.sintandriestielt.be/",
     },
   ];

@@ -6,7 +6,7 @@ export default function Footer() {
           Wilt u meer van mijn werkervaring zien en/of mijn CV downloaden?
         </p>
         <a
-          href="public/TiagoBelmonte_CV.pdf"
+          href="/TiagoBelmonte_CV.pdf"
           download
           className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700 transition"
         >
