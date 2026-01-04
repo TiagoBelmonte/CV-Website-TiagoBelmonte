@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-blue-500 to-indigo-600 shadow-md mt-10">
-      <div className="max-w-5xl mx-auto text-center py-10 px-6">
-        <p className="text-gray-700 text-lg mb-4">
+    <footer className=" bg-gradient-to-b from-blue-200 to-white shadow-md mt-0">
+      <div className="max-w-5xl mx-auto text-center py-8 px-6">
+        <p className="text-black  text-lg mb-4">
           Wilt u meer van mijn werkervaring zien en/of mijn CV downloaden?
         </p>
         <a

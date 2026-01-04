@@ -55,7 +55,7 @@ export default function Hero() {
       {/* content positioned over the image (left-aligned) */}
       <div className="absolute inset-0 flex items-center justify-start transform -translate-y-[140px]">
         <div className="w-full">
-          <h2 className="text-8xl font-bold mb-6 text-center">
+          <h2 className=" font-Header text-8xl font-bold mb-6 text-center">
             Junior Developer
           </h2>
 

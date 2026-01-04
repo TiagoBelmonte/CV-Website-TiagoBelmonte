@@ -67,9 +67,11 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="py-20 px-6 bg-gradient-to-r from-blue-500 to-indigo-600"
+      className="py-20 px-6 bg-gradient-to-t from-blue-500 to-indigo-600"
     >
-      <h3 className="text-3xl font-bold text-center mb-10">Projecten</h3>
+      <h3 className="font-title text-4xl font-bold text-center mb-10 text-white">
+        Projecten
+      </h3>
 
       <div className="relative max-w-5xl mx-auto">
         {/* Grid */}
@@ -117,7 +119,7 @@ export default function Projects() {
               key={index}
               onClick={() => setCurrentPage(index)}
               className={`w-3 h-3 rounded-full ${
-                currentPage === index ? "bg-blue-600" : "bg-gray-400"
+                currentPage === index ? "bg-white" : "bg-gray-400"
               }`}
             />
           ))}

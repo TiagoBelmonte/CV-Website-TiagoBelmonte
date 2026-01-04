@@ -23,8 +23,13 @@ export default function Contact() {
     },
   ];
   return (
-    <section id="contact" className="py-20 px-6">
-      <h3 className="text-3xl font-bold text-center mb-10">Werkervaring</h3>
+    <section
+      id="contact"
+      className="py-12 px-6 bg-gradient-to-b from-blue-500 to-blue-200"
+    >
+      <h3 className="font-title text-white text-4xl font-bold text-center mb-10">
+        Werkervaring
+      </h3>
       <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {werkervaring.map((item, index) => (
           <div
