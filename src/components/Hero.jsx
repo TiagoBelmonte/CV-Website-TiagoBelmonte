@@ -38,28 +38,65 @@ export default function Hero() {
     { icon: faCar, label: "Rijbewijs", value: "B" },
   ];
 
+  const leftItems = infoItems.slice(0, 4);
+  const rightItems = infoItems.slice(4);
+
   return (
-    <section className="text-center py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+    <section className="relative text-white">
       <img
-        src="/profile.jpg"
-        alt="Profielfoto Tiago Belmonte"
-        className="w-48 h-48 object-cover rounded-full mx-auto border-4 border-white shadow-lg mb-6"
+        src="/Background_picture3.jpg"
+        alt="Background"
+        className="w-full h-auto block"
       />
 
-      <h2 className="text-4xl font-bold mb-10">Junior Developer</h2>
-      <div className="max-w-3xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 text-left bg-white text-gray-900 p-8 rounded-lg shadow">
-        {infoItems.map((item, index) => (
-          <div key={index} className="flex items-center gap-4">
-            <FontAwesomeIcon
-              icon={item.icon}
-              className="w-6 h-6 text-blue-600"
-            />
-            <div>
-              <p className="text-sm text-gray-500">{item.label}</p>
-              <p className="font-medium">{item.value}</p>
+      {/* translucent overlay to improve contrast */}
+      <div className="absolute inset-0 bg-black/30" />
+
+      {/* content positioned over the image (left-aligned) */}
+      <div className="absolute inset-0 flex items-center justify-start transform -translate-y-[140px]">
+        <div className="w-full">
+          <h2 className="text-8xl font-bold mb-6 text-center">
+            Junior Developer
+          </h2>
+
+          {/* full-width container so columns can sit at page edges */}
+          <div className="w-full px-6 md:px-12 lg:px-20 flex flex-col md:flex-row md:justify-between items-start text-left bg-transparent text-white p-8 rounded-lg shadow z-10 translate-y-[120px]">
+            <div className="w-full md:w-1/3 space-y-4">
+              {leftItems.map((item, index) => (
+                <div key={index} className="flex items-center gap-4">
+                  <FontAwesomeIcon
+                    icon={item.icon}
+                    className="w-6 h-6 text-blue-600"
+                  />
+                  <div>
+                    <p className="text-sm text-gray-300">{item.label}</p>
+                    <p className="font-medium">{item.value}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="hidden md:block md:flex-1" />
+
+            <div className="w-full md:w-1/3 space-y-4 md:text-right">
+              {rightItems.map((item, index) => (
+                <div
+                  key={index}
+                  className="flex items-center gap-4 md:justify-end"
+                >
+                  <div>
+                    <p className="text-sm text-gray-300">{item.label}</p>
+                    <p className="font-medium">{item.value}</p>
+                  </div>
+                  <FontAwesomeIcon
+                    icon={item.icon}
+                    className="w-6 h-6 text-blue-600"
+                  />
+                </div>
+              ))}
             </div>
           </div>
-        ))}
+        </div>
       </div>
     </section>
   );

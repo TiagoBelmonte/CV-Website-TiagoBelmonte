@@ -65,7 +65,10 @@ export default function Projects() {
     setCurrentPage((prev) => (prev - 1 + totalPages) % totalPages);
 
   return (
-    <section id="projects" className="py-20 px-6 bg-gray-100">
+    <section
+      id="projects"
+      className="py-20 px-6 bg-gradient-to-r from-blue-500 to-indigo-600"
+    >
       <h3 className="text-3xl font-bold text-center mb-10">Projecten</h3>
 
       <div className="relative max-w-5xl mx-auto">

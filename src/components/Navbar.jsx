@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-5 bg-white shadow-md sticky top-0">
+    <nav className="flex justify-between items-center p-5 bg-white shadow-md">
       <h1 className="text-2xl font-bold text-blue-600">Tiago Belmonte</h1>
       <ul className="flex gap-6">
         <li>

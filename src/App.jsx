@@ -8,7 +8,6 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="bg-gray-50 text-gray-900 font-sans">
-      <Navbar />
       <Hero />
       <Skills />
       <Projects />
